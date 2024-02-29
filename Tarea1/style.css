@@ -66,7 +66,7 @@ body{
     flex-direction: column;
     align-content: center;
 }
-.Contenedor1 .container {
+.Contenedor1 .container { 
     margin-top: 15px;   
     height: 265px;
     display: flex;
@@ -83,7 +83,7 @@ button {
     color: rgb(255, 255, 255);
     font-size: small;
     border-radius: 6px;
-    transition: background-color 0.8s;
+    transition: background-color 0.7s;
 }
 
 button:hover{
