@@ -11,25 +11,50 @@ body{
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    border-radius: 6px;
+}
+
+.redonda{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
 }
 
 .contenedorImagen{
+    width: auto;
+    height: auto;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column-reverse;
     align-content: center;
-    border-radius: 100%;
-}
-.nombre{
-    width: auto;
-    height: auto;
-    
-    color: white;
 
 }
-.ubicacion{
-    color: greenyellow;
+.nombre{
+    display: flex;
+    width: auto;
+    height: auto;
+    color: white;
+    font-size: x-large;
+    justify-content: center;
 }
+.ubicacion{
+    display: flex;
+    margin: 0px;
+    color: greenyellow;
+    font-size: small;
+    justify-content: center;
+}
+
+.descripcion{
+    display: flex;
+    width: auto;
+    height: auto;
+    color: white;
+    font-size: x-large;
+    justify-content: center;
+}
+
 .Contenedor1{
     width: 250px;
     display: flex;
@@ -48,7 +73,9 @@ body{
 button {
     width: 250px;
     height: 25px;
+    border: 1px solid rgb(72, 72, 72);
     background: rgb(72, 72, 72);
     color: rgb(255, 255, 255);
+    border-radius: 6px;
 }
 
