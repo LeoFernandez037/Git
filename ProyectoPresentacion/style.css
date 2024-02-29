@@ -1,5 +1,16 @@
+:root {
+    /* ## Colors */
+/* ### Primary */
+--Green: hsl(75, 94%, 57%);
+/* ### Neutral */
+--White: hsl(0, 0%, 100%);
+--Grey: hsl(0, 0%, 20%);
+--DarkGrey: hsl(0, 0%, 12%);
+--OffBlack: hsl(0, 0%, 8%);
+}
+
 body{
-    background:  #121212;
+    background:  var(--OffBlack);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -8,7 +19,7 @@ body{
 }
 .contenedorDinamico{
     display: flex;
-    background-color:  #191919 ;
+    background-color:  var(--DarkGrey) ;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
@@ -36,7 +47,7 @@ body{
     display: flex;
     width: auto;
     height: auto;
-    color: white;
+    color: var(--White);
     font-size: large;
     justify-content: center;
     margin-bottom: 9px;
@@ -44,7 +55,7 @@ body{
 .ubicacion{
     display: flex;
     margin:0px;
-    color:  hsl(75, 94%, 57%);
+    color:  var(--Green);
     font-size: xx-small;
     justify-content: center;
 }
@@ -54,7 +65,7 @@ body{
     width: auto;
     height: auto;
     margin-top: 30px;
-    color: white;
+    color: var(--White);
     font-size: x-small;
     justify-content: center;
 }
@@ -78,21 +89,21 @@ body{
 button {
     width: 255px;
     height: 40px;
-    border: 1px solid #323232 ;
-    background: #323232 ;
-    color: rgb(255, 255, 255);
+    border: 1px solid var(--Grey) ;
+    background: var(--Grey) ;
+    color: var(--White);
     font-size: small;
     border-radius: 6px;
     transition: background-color 0.8s;
 }
 
 button:hover{
-    background-color: rgb(134, 199, 36);
+    background-color: var(--Green);
 }
 
 .attribution{
     margin-top: 10px;
-    color: white;
+    color: var(--White);
     font-size: xx-small;
 }
 
