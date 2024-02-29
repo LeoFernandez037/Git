@@ -12,6 +12,7 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     border-radius: 6px;
+    padding: 5px 10px;
 }
 
 .redonda{
@@ -51,7 +52,7 @@ body{
     width: auto;
     height: auto;
     color: white;
-    font-size: x-large;
+    font-size: smaller;
     justify-content: center;
 }
 
@@ -71,11 +72,12 @@ body{
     justify-content: space-around;
 }
 button {
-    width: 250px;
+    width: 200px;
     height: 25px;
     border: 1px solid rgb(72, 72, 72);
     background: rgb(72, 72, 72);
     color: rgb(255, 255, 255);
+    font-size: x-small;
     border-radius: 6px;
 }
 
