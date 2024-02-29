@@ -1,18 +1,19 @@
 body{
-    background: rgb(23, 23, 23);
+    background:  #121212;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
+    font-family: Fuentexd;
 }
 .contenedorDinamico{
     display: flex;
-    background-color: rgb(33, 32, 32);
+    background-color:  #191919 ;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
     border-radius: 6px;
-    padding: 5px 10px;
+    padding: 10px 5px;
 }
 
 .redonda{
@@ -36,14 +37,15 @@ body{
     width: auto;
     height: auto;
     color: white;
-    font-size: x-large;
+    font-size: large;
     justify-content: center;
+    margin-bottom: 9px;
 }
 .ubicacion{
     display: flex;
-    margin: 0px;
+    margin:0px;
     color: greenyellow;
-    font-size: small;
+    font-size: xx-small;
     justify-content: center;
 }
 
@@ -51,8 +53,9 @@ body{
     display: flex;
     width: auto;
     height: auto;
+    margin-top: 15px;
     color: white;
-    font-size: smaller;
+    font-size: x-small;
     justify-content: center;
 }
 
@@ -64,7 +67,8 @@ body{
     align-content: center;
 }
 .Contenedor1 .container {
-    height: 150PX;
+    margin-top: 15px;
+    height: 170PX;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column-reverse;
@@ -72,12 +76,22 @@ body{
     justify-content: space-around;
 }
 button {
-    width: 200px;
+    width: 220px;
     height: 25px;
-    border: 1px solid rgb(72, 72, 72);
-    background: rgb(72, 72, 72);
+    border: 1px solid #323232 ;
+    background: #323232 ;
     color: rgb(255, 255, 255);
     font-size: x-small;
     border-radius: 6px;
 }
 
+.attribution{
+    margin-top: 10px;
+    color: white;
+    font-size: xx-small;
+}
+
+@font-face {
+    font-family: 'Fuentexd';
+    src: url(Inter-VariableFont_slnt,wght.ttf);
+}
