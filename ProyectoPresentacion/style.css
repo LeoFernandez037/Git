@@ -18,7 +18,7 @@ body{
     font-family: Fuentexd;
 }
 .contenedorDinamico{
-    margin-top: 80px;
+    margin-top: 110px;
     display: flex;
     background-color:  var(--DarkGrey) ;
     align-items: center;
@@ -125,3 +125,14 @@ button:hover{
     font-family: 'FuenteNormal';
     src: url(Inter-Regular.ttf);
 }
+
+@media (min-width: 376px) {
+   .contenedorDinamico{
+        margin-top: 90px;
+        scale: 1.2;
+   }
+    .attribution{
+        scale: 1.2;
+        margin-top: 55px;
+    }
+  }
