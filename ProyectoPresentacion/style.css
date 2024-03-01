@@ -18,6 +18,7 @@ body{
     font-family: Fuentexd;
 }
 .contenedorDinamico{
+    margin-top: 80px;
     display: flex;
     background-color:  var(--DarkGrey) ;
     align-items: center;
@@ -101,6 +102,7 @@ button {
 
 button:hover{
     background-color: var(--Green);
+    color: var(--OffBlack);
 }
 
 .attribution{
