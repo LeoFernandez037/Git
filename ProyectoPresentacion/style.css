@@ -113,17 +113,17 @@ button:hover{
 
 @font-face {
     font-family: 'Fuentexd';
-    src: url(Inter-VariableFont_slnt,wght.ttf);
+    src: url(./Inter-VariableFont_slnt,wght.ttf);
 }
 
 @font-face {
     font-family: 'FuenteNegrilla';
-    src: url(Inter-Bold.ttf);
+    src: url(./Inter-Bold.ttf);
 }
 
 @font-face {
     font-family: 'FuenteNormal';
-    src: url(Inter-Regular.ttf);
+    src: url(./Inter-Regular.ttf);
 }
 
 @media (min-width: 376px) {
