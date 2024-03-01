@@ -63,6 +63,7 @@ body{
 .descripcion{
     display: flex;
     width: auto;
+    font-family: 'FuenteNormal';
     height: auto;
     margin-top: 30px;
     color: var(--White);
@@ -116,4 +117,9 @@ button:hover{
 @font-face {
     font-family: 'FuenteNegrilla';
     src: url(Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'FuenteNormal';
+    src: url(Inter-Regular.ttf);
 }
