@@ -12,13 +12,14 @@
 body{
     background:  var(--OffBlack);
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
     font-family: Fuentexd;
 }
 .contenedorDinamico{
     margin-top: 110px;
+    width: 305px;
     display: flex;
     background-color:  var(--DarkGrey) ;
     align-items: center;
@@ -79,6 +80,7 @@ body{
     flex-direction: column;
     align-content: center;
 }
+
 .Contenedor1 .container { 
     margin-top: 5px;   
     height: 265px;
@@ -88,6 +90,7 @@ body{
     align-content: center;
     justify-content: space-around;
 }
+
 button {
     width: 255px;
     height: 40px;
